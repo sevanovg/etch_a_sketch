@@ -1,0 +1,26 @@
+#container {
+    width: 400px;
+    height: 400px;
+    border-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    margin: 10px;
+}
+
+body {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.grid-element {
+    border-style: dotted;
+    border-width: 1px;
+    border-color: rgb(185, 185, 185);
+    box-sizing:border-box;
+}
